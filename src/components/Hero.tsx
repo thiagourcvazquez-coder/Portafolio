@@ -1,4 +1,4 @@
-import { PERFIL, CONTACTO } from '@/lib/data'
+import { PERFIL, CV_URL } from '@/lib/data'
 import HeroVisual from './HeroVisual'
 
 export default function Hero() {
@@ -19,9 +19,7 @@ export default function Hero() {
         <p className="hero-sub">{PERFIL.bajada}</p>
         <div className="hero-cta">
           <a href="#proyectos" className="btn">Ver proyectos</a>
-          <a href={CONTACTO.whatsapp} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">
-            Escribime por WhatsApp
-          </a>
+          <a href={CV_URL} download className="btn btn-ghost">Descargar CV</a>
         </div>
       </div>
       <div className="hero-foot">

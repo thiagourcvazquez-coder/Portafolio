@@ -35,6 +35,9 @@ ul { list-style: none; }
 .nav-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--acc); box-shadow: 0 0 14px var(--acc); }
 .nav-links { display: flex; gap: 32px; font-size: 14px; color: var(--gris); }
 .nav-links a:hover { color: var(--txt); }
+.nav { gap: 14px; }
+.nav-logo { margin-right: auto; }
+.nav-links { position: absolute; left: 50%; transform: translateX(-50%); }
 
 /* ---------- Botones ---------- */
 .btn {
@@ -145,6 +148,7 @@ h3 { font-size: clamp(26px, 3vw, 40px); letter-spacing: -0.02em; line-height: 1.
 /* ---------- Mobile ---------- */
 @media (max-width: 860px) {
   .nav-links { display: none; }
+  .nav-cv { display: none; }
   .hero { align-items: end; padding-bottom: 110px; }
   .hero-3d::after { background: linear-gradient(to top, var(--bg) 25%, transparent 75%); }
   .hero-3d { opacity: 0.85; }

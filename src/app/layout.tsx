@@ -11,6 +11,7 @@ const serif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://portafolio-thiago-vazquez.vercel.app"),
   title: "Thiago Vázquez · Desarrollador web full stack",
   description:
     "Portafolio de Thiago Vázquez — TM Soluciones Digitales. Sitios, tiendas, turneros y sistemas a medida con Next.js, React y Supabase. Salta, Argentina.",

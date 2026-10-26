@@ -1,4 +1,4 @@
-import { CONTACTO, PERFIL } from '@/lib/data'
+import { CONTACTO, PERFIL, CV_URL } from '@/lib/data'
 import Reveal from './Reveal'
 
 export default function Contacto() {
@@ -12,6 +12,7 @@ export default function Contacto() {
         </p>
         <div className="hero-cta">
           <a href={CONTACTO.whatsapp} target="_blank" rel="noopener noreferrer" className="btn">Escribime por WhatsApp</a>
+          <a href={CV_URL} download className="btn btn-ghost">Descargar CV</a>
           <a href={CONTACTO.email} className="btn btn-ghost">thiagovazquezalm@gmail.com</a>
           <a href={CONTACTO.instagram} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">Instagram</a>
           <a href={CONTACTO.linkedin} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">LinkedIn</a>

@@ -7,6 +7,8 @@ export const PERFIL = {
     'Diseño y desarrollo sitios y sistemas que reservan, cobran y se administran solos. De la idea al deploy, con Next.js, React y Supabase.',
 }
 
+export const CV_URL = '/CV_ThiagoVazquez.pdf'
+
 export const CONTACTO = {
   whatsapp: 'https://wa.me/5493875875001?text=Hola%20Thiago%2C%20vi%20tu%20portafolio%20y%20quiero%20consultarte%20por%20un%20proyecto.',
   email: 'mailto:thiagovazquezalm@gmail.com',

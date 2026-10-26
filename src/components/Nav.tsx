@@ -1,4 +1,4 @@
-import { PERFIL, CONTACTO } from '@/lib/data'
+import { PERFIL, CONTACTO, CV_URL } from '@/lib/data'
 
 export default function Nav() {
   return (
@@ -12,6 +12,9 @@ export default function Nav() {
         <a href="#servicios">Servicios</a>
         <a href="#contacto">Contacto</a>
       </nav>
+      <a href={CV_URL} download className="btn btn-ghost btn-sm nav-cv">
+        Descargar CV
+      </a>
       <a href={CONTACTO.whatsapp} target="_blank" rel="noopener noreferrer" className="btn btn-sm">
         Hablemos
       </a>
