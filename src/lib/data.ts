@@ -77,9 +77,9 @@ export const PROYECTOS: Proyecto[] = [
       'Backoffice separado en React + Vite para la gestión interna.',
     ],
     stack: ['Next.js', 'React', 'Fastify', 'Prisma', 'Supabase', 'Mercado Pago', 'Vite'],
-    captura: null,
+    captura: '/proyectos/puntonorte.png',
     logo: '/proyectos/puntonorte-logo.png',
-    url: null,
+    url: 'https://punto-norte-frontend.vercel.app',
     color: '#7c5cff',
   },
 ]
