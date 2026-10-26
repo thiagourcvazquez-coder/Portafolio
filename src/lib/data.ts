@@ -11,7 +11,7 @@ export const CONTACTO = {
   whatsapp: 'https://wa.me/5493875875001?text=Hola%20Thiago%2C%20vi%20tu%20portafolio%20y%20quiero%20consultarte%20por%20un%20proyecto.',
   email: 'mailto:thiagovazquezalm@gmail.com',
   instagram: 'https://instagram.com/tmsolucionesdigitales',
-  linkedin: 'https://linkedin.com/company/tm-soluciones-digitales/',
+  linkedin: 'https://www.linkedin.com/in/thiago-vazquez-09a749351',,
 }
 
 export type Proyecto = {
