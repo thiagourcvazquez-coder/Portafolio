@@ -12,6 +12,7 @@ export default function Contacto() {
         </p>
         <div className="hero-cta">
           <a href={CONTACTO.whatsapp} target="_blank" rel="noopener noreferrer" className="btn">Escribime por WhatsApp</a>
+          <a href={CONTACTO.email} className="btn btn-ghost">thiagovazquezalm@gmail.com</a>
           <a href={CONTACTO.instagram} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">Instagram</a>
           <a href={CONTACTO.linkedin} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">LinkedIn</a>
         </div>
